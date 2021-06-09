@@ -1,0 +1,41 @@
+【制作物のコード】
+
+◆国際学生対抗バーチャルリアリティコンテスト (./IVRC2020)
+・制作物：腕を世界各地にワープさせる感覚を提示するシステム
+	https://www.youtube.com/watch?v=JvHhfpBhmRg
+・自分の担当したUI部分のコード一覧
+	・DisplayText.cs
+		状況に応じてテキストを表示．
+	・GameManager.cs
+		メイン．シナリオ選択や画面遷移などを実行．
+	・GuessModeImage.cs
+		推測モード内の各処理を実行．
+	・ReturnButton.cs
+		トップ画面へ遷移．
+	・Roulette.cs
+		ルーレットの挙動を計算．
+	・TimeNowScript.cs
+		現在の時刻を表示．
+	・Video.cs
+		動画の再生処理を実行．
+	・WarpVsTravelButton.cs
+		モード変更を実行．
+
+◆Webアプリケーション
+・制作物：プログラミングコンテストのレート分布を可視化するアプリ (../heuristic-statistics2)
+	https://heuristic-statistics.herokuapp.com/
+・主なコード（すべて一人で作成）
+	・frontend/src/App.js
+		データの取得や外観の大枠をつくる．
+	・frontend/src/Graph.js
+		グラフの描画処理を実行．
+	・frontend/src/InputForm.js
+		ユーザ名の入力処理を実行．
+	・backend/index.js
+		バックエンドの処理を実行．
+
+◆入退室管理システム (./in_out_chk)
+・制作物：入退室管理システム
+・コード（一人で作成）
+	・in_out_chk.py
+		認証やネットワークのスキャン，スプレッドシートへの記載などを実行．
